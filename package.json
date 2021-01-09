@@ -1,0 +1,32 @@
+{
+  "//1": "©2021 ShiroLine",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "MayuriBot",
+  "version": "1.0.2",
+  "description": "Mayuri Discord Bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "mal-scraper": "^2.11.2",
+    "mathjs": "^8.1.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "node-superfetch": "^0.1.10",
+    "quick.db": "^7.1.3",
+    "superagent": "^6.1.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/ShiroLine/MayuriBot"
+  },
+  "license": "BSD 3-Clause",
+  "keywords": [
+    "node"
+  ]
+}
