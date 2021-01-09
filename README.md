@@ -1,0 +1,2 @@
+# MayuriBot
+Mayuri Discord Bot
