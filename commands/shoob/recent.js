@@ -698,5 +698,5 @@ exports.help = {
   
   exports.conf = {
     aliases: ["r"],
-    cooldown: 10
+    cooldown: 3
   }
