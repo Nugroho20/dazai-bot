@@ -22,13 +22,13 @@ exports.run = async (client, message, args) => {
     .setURL('https://animesoul.com/user/' + user.id + '')
     .setColor("#FFFF33")
     .setDescription(`\n
-<:Badge:772478575122579466> | Total Cards Claimed: \`${totalclaims}\`
-<:Hypesquad:772403036386623498> | Cards Claimed This Season: \`${seasonclaims}\`
+<:IP_TS:788097179301576734> | Total Cards Claimed: \`${totalclaims}\`
+<:bongo_1:757451530948575232> | Cards Claimed This Season: \`${seasonclaims}\`
 
 **──────By Tier──────**
-<:IP_T1:757355565981761669> x ${claimst1} \`|\` <:IP_T2:757355535828779069> x ${claimst2} \`|\` <:IP_T3:757355503939616850> x ${claimst3}
+<:atr_t1:798846436593631252> x ${claimst1} \`|\` <:atr_t2:798846602101391380> x ${claimst2} \`|\` <:atr_t3:798846665414017075> x ${claimst3}
 **────────────────**
-<:IP_T4:757355465373122661> x ${claimst4} \`|\` <:IP_T5:757355431613169874> x ${claimst5} \`|\` <:IP_T6:757354520530386944> x ${claimst6}\n`)
+<:atr_t4:798846783119818753> x ${claimst4} \`|\` <:atr_t5:798846842334478336> x ${claimst5} \`|\` <:atr_t6:798846909006741545> x ${claimst6}\n`)
     .setThumbnail(user.displayAvatarURL({ dynamic: true }))
     .setFooter('Replying to ' + message.author.tag, message.author.displayAvatarURL());
     message.channel.send({ embed })
@@ -50,5 +50,5 @@ exports.help = {
   
   exports.conf = {
     aliases: ["shoobstats"],
-    cooldown: 10
+    cooldown: 5
   }
