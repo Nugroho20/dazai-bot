@@ -19,8 +19,8 @@ exports.run = async (client, message, args) => {
     const embed = new Discord.MessageEmbed()
     .setColor("#FFFF33")
     .setTitle('Calculation result:')
-    .addField('Input 📥', `\`\`\`js\n${args.join(' ')}\`\`\``)
-    .addField('Output 📤', `\`\`\`js\n${resp}\`\`\``)
+    .addField('Question 📥', `\`\`\`js\n${args.join(' ')}\`\`\``)
+    .addField('Answer 📤', `\`\`\`js\n${resp}\`\`\``)
     message.channel.send(embed)
 }
 
