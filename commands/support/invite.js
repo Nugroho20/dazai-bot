@@ -1,8 +1,8 @@
 
 exports.run = async (client, message, args) => {
     message.channel.send({ embed: {
-        "description": "<:Woah:769139813226905611>** | Want to invite " + client.user.username + " to your server? [Click Me!](https://discord.com/api/oauth2/authorize?client_id=768994833808359444&permissions=1812462657&scope=bot)**\n*Join Mayuri Support Server?* **[Click Me!](https://discord.gg/JwnPkVrh7f)**",
-        "color": "#FFFF33",
+        "description": "<:Woah:769139813226905611>** | Want to invite " + client.user.username + " to your server? [Click Me!](https://discord.com/api/oauth2/authorize?client_id=779533217803141131&permissions=1812462657&scope=bot)**\n*Join My Server?* **[Click Me!](https://discord.io/Imajinasi)**",
+        "color": "#FF0000",
     }})
 }
 exports.help = {
