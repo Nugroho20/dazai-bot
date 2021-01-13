@@ -63,3 +63,14 @@ const convert = require("parse-ms");
       return message.channel.send(embed);
     })
     
+exports.help = {
+    name: "spotify",
+    name2: "Spotify",
+    description: "Showing track info spotify",
+    usage: "Nez!spotify / Nez!spotify @mention"
+};
+
+exports.conf = {
+     aliases: ["st"],
+     cooldown: 5
+};
