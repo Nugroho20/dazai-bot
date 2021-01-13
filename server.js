@@ -397,60 +397,60 @@ client.on("message", async message => {
     if (isTimer === "true") {
       if (checkEmbed && checkEmbed.title.includes(" Tier:")) {
         message.channel.send({embed: { 
-          "description": ":green_circle: **| Time until despawn:** `15s`",
+          "description": ":green_circle: **| Despawn in:** `15s`",
           "color": `GREEN`
         }}).then(msg => {
         setTimeout(function() {
           msg.edit({embed: { 
-            "description": ":green_circle: **| Time until despawn:** `13s`",
+            "description": ":green_circle: **| Despawn in:** `13s`",
             "color": `GREEN`
           }})
         }, 2000)
         setTimeout(function() {
           msg.edit({embed: { 
-            "description": ":green_circle: **| Time until despawn:** `11s`",
+            "description": ":green_circle: **| Despawn in:** `11s`",
             "color": `GREEN`
           }})
         }, 4000)
         setTimeout(function() {
           msg.edit({embed: { 
-            "description": ":green_circle: **| Time until despawn:** `9s`",
+            "description": ":green_circle: **| Despawn in:** `9s`",
             "color": `GREEN`
           }})
         }, 6000)
         setTimeout(function() {
           msg.edit({embed: { 
-            "description": ":orange_circle: **| Time until despawn:** `7s`",
+            "description": ":orange_circle: **| Despawn in:** `7s`",
             "color": `ORANGE`
           }})
         }, 8000)
         setTimeout(function() {
           msg.edit({embed: { 
-            "description": ":orange_circle: **| Time until despawn:** `5s`",
+            "description": ":orange_circle: **| Despawn in:** `5s`",
             "color": `ORANGE`
           }})
         }, 10000)
         setTimeout(function() {
           msg.edit({embed: { 
-            "description": ":red_circle: **| Time until despawn:** `3s`",
+            "description": ":red_circle: **| Despawn in:** `3s`",
             "color": `RED`
           }})
         }, 12000)
         setTimeout(function() {
           msg.edit({embed: { 
-            "description": ":red_circle: **| Time until despawn:** `1s`",
+            "description": ":red_circle: **| Despawn in:** `1s`",
             "color": `RED`
           }})
         }, 14000)
         setTimeout(function() {
           msg.edit({embed: { 
-            "description": ":black_circle: **| DONE:** `0s`",
+            "description": ":black_circle: **| COMPLETE:** `0s`",
             "color": `BLACK`
           }})
         }, 15000)
         setTimeout(function() {
           msg.delete()
-        }, 16000)
+        }, 17000)
       })
     }
   }
@@ -459,21 +459,21 @@ client.on("message", async message => {
     const on =  await client.db.get(`t4ping.${message.guild.id}`)
     if (on !== "on") return;
     const namecard = checkEmbed.title.replace(" Tier: 4", "");
-    message.channel.send("<:IP_T4:757355465373122661> |** ``" + namecard + "``**, " + role + "")
+    message.channel.send(":<:atr_pt4:798847010978398258> |** ``" + namecard + "``**, " + role + "")
   }
   if (checkEmbed && checkEmbed.title.includes(" Tier: 5")) {
     const role =  await client.db.get(`t5ping_${message.guild.id}`)
     const on =  await client.db.get(`t5ping.${message.guild.id}`)
     if (on !== "on") return;
     const namecard = checkEmbed.title.replace(" Tier: 5", "");
-    message.channel.send("<:IP_T5:757355431613169874> |** ``" + namecard + "``**, " + role + "")
+    message.channel.send(":<:atr_pt5:798847068256075787> |** ``" + namecard + "``**, " + role + "")
   }
   if (checkEmbed && checkEmbed.title.includes(" Tier: 6")) {
     const role =  await client.db.get(`t6ping_${message.guild.id}`)
     const on =  await client.db.get(`t6ping.${message.guild.id}`)
     if (on !== "on") return;
     const namecard = checkEmbed.title.replace(" Tier: 6", "");
-    message.channel.send("<:IP_T6:757354520530386944> |** ``" + namecard + "``**, " + role + "")
+    message.channel.send(":<:atr_pt6:798847133066854400> |** ``" + namecard + "``**, " + role + "")
   }
   }
 }else {
