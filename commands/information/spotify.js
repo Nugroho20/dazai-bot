@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const convert = require("parse-ms");
 
-  exports.run = (client, message, args) => {
+  exports.run = async (client, message, args) => {
     let user;
     if (message.mentions.users.first()) {
       user = message.mentions.users.first();
