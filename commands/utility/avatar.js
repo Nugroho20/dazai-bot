@@ -21,10 +21,10 @@ exports.run = async (client, message, args) => {
   let avatar = user.user.displayAvatarURL({ dynamic: true, format: "png", size: 4096 });
 
   const embed = new Discord.MessageEmbed()
-  .setTitle("Showing" + ` ${user.user.tag} avatar`)
+  .setTitle("Avatar of" + ` ${user.user.tag} avatar`)
   .setDescription(`[Download Image](${avatar})`)
   .setImage(avatar)
-  .setColor("#FFFF33")
+  .setColor("RANDOM")
   .setFooter('Replying to ' + message.author.tag, message.author.displayAvatarURL());
   return message.channel.send({ embed })
 }
