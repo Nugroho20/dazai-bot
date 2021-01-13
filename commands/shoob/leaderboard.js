@@ -30,11 +30,11 @@ exports.run = async (client, message, args) => {
 
     const embed = new Discord.MessageEmbed()
     .setAuthor(`Leaderboard | ${message.guild.name}`, message.guild.iconURL({dynamic: true}))
-    .setTitle(`Showing Top Claims on ${message.guild.name}`)
-    .setColor('#FFFF33')
+    .setTitle(`Top Claimer on ${message.guild.name}`)
+    .setColor('RED')
     .setDescription(`\`\`\`css
 ${arr.join("\n")}\`\`\``)
-  .setFooter(`Page: ${page} / ${lastpage} | m!lb [page]`);
+  .setFooter(`Page: ${page} / ${lastpage} | Nez!lb [page]`);
     message.channel.send(embed).then(i => {
       i.delete({timeout: 15000})
   })
