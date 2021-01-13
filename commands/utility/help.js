@@ -21,7 +21,7 @@ exports.run = async (client, message, args) => {
     const embed = new Discord.MessageEmbed()
     .setColor(client.colors.theme)
     .setDescription(`Use \`${prefix}help [command]\` to get more information\nExample: \`${prefix}help timer\``)
-    .setAuthor("Help Menu | " + message.guild.name, message.guild.iconURL())
+    .setAuthor("Help commands | " + message.guild.name, message.guild.iconURL())
     .setFooter('Owner xd ' + av.tag, av.displayAvatarURL())
     .setTimestamp();
     
