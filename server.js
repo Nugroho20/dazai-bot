@@ -459,21 +459,21 @@ client.on("message", async message => {
     const on =  await client.db.get(`t4ping.${message.guild.id}`)
     if (on !== "on") return;
     const namecard = checkEmbed.title.replace(" Tier: 4", "");
-    message.channel.send(":<:atr_pt4:798847010978398258> |** ``" + namecard + "``**, " + role + "")
+    message.channel.send("<:atr_pt4:798847010978398258> |** ``" + namecard + "``**, " + role + "")
   }
   if (checkEmbed && checkEmbed.title.includes(" Tier: 5")) {
     const role =  await client.db.get(`t5ping_${message.guild.id}`)
     const on =  await client.db.get(`t5ping.${message.guild.id}`)
     if (on !== "on") return;
     const namecard = checkEmbed.title.replace(" Tier: 5", "");
-    message.channel.send(":<:atr_pt5:798847068256075787> |** ``" + namecard + "``**, " + role + "")
+    message.channel.send("<:atr_pt5:798847068256075787> |** ``" + namecard + "``**, " + role + "")
   }
   if (checkEmbed && checkEmbed.title.includes(" Tier: 6")) {
     const role =  await client.db.get(`t6ping_${message.guild.id}`)
     const on =  await client.db.get(`t6ping.${message.guild.id}`)
     if (on !== "on") return;
     const namecard = checkEmbed.title.replace(" Tier: 6", "");
-    message.channel.send(":<:atr_pt6:798847133066854400> |** ``" + namecard + "``**, " + role + "")
+    message.channel.send("<:atr_pt6:798847133066854400> |** ``" + namecard + "``**, " + role + "")
   }
   }
 }else {
