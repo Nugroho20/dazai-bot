@@ -22,8 +22,8 @@ exports.run = async (client, message, args) => {
     .setURL('https://animesoul.com/user/' + user.id + '')
     .setColor("#FFFF33")
     .setDescription(`\n
-<:IP_TS:788097179301576734> | Total Cards Claimed: \`${totalclaims}\`
-<:bongo_1:757451530948575232> | Cards Claimed This Season: \`${seasonclaims}\`
+<a:IP_TS:788097179301576734> | Total Cards Claimed: \`${totalclaims}\`
+<a:bongo_1:757451530948575232> | Cards Claimed This Season: \`${seasonclaims}\`
 
 **──────By Tier──────**
 <:atr_t1:798846436593631252> x ${claimst1} \`|\` <:atr_t2:798846602101391380> x ${claimst2} \`|\` <:atr_t3:798846665414017075> x ${claimst3}
