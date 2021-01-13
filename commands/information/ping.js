@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
 • Bot Ping :: ${Math.round(client.ws.ping)}ms
 • Latency  :: ${msg.createdTimestamp - message.createdTimestamp}ms\`\`\``)
     .setColor(client.colors.theme)
-    .setFooter(`user.displayAvatarURL())
+    .setFooter("🏓")
     message.channel.send({ embed });
   
 };
