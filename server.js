@@ -444,7 +444,7 @@ client.on("message", async message => {
         }, 14000)
         setTimeout(function() {
           msg.edit({embed: { 
-            "description": ":black_circle: **| Time until despawn:** `0s`",
+            "description": ":black_circle: **| DONE:** `0s`",
             "color": `BLACK`
           }})
         }, 15000)
