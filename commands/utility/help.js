@@ -20,9 +20,9 @@ exports.run = async (client, message, args) => {
     if (!client.config.owners.includes(message.author.id)) module = client.helps.array().filter(x => !x.hide);
     const embed = new Discord.MessageEmbed()
     .setColor(client.colors.theme)
-    .setDescription(`Use \`${prefix}help [command]\` to get more command information!\nExample: \`${prefix}help avatar\``)
+    .setDescription(`Use \`${prefix}help [command]\` to get more information\nExample: \`${prefix}help timer\``)
     .setAuthor("Help Menu | " + message.guild.name, message.guild.iconURL())
-    .setFooter('Developer ' + av.tag, av.displayAvatarURL())
+    .setFooter('Owner xd ' + av.tag, av.displayAvatarURL())
     .setTimestamp();
     
     for (const mod of module) {
@@ -69,5 +69,5 @@ exports.help = {
 
 exports.conf = {
   aliases: ["?"],
-  cooldown: 15
+  cooldown: 10
 }
