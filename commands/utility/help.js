@@ -15,7 +15,7 @@ exports.run = async (client, message, args) => {
   if (!args[0]) {
     // This will turn the folder (category) into array.
     let module = client.helps.array();
-    let av = client.users.cache.get("456823870087888896")
+    let av = client.users.cache.get("730482846531059763")
     // This will hide a folder from display that includes "hide: true" in their module.json
     if (!client.config.owners.includes(message.author.id)) module = client.helps.array().filter(x => !x.hide);
     const embed = new Discord.MessageEmbed()
@@ -27,7 +27,7 @@ exports.run = async (client, message, args) => {
     
     for (const mod of module) {
       // You can change the .join(", ") to dots or every symbol.
-      embed.addField(`${mod.name}`, mod.cmds.map(x => `\`${x}\``).join(" **|** "));
+      embed.addField(`${mod.name}`, mod.cmds.map(x => `\`${x}\``).join(", "));
     }
     
     return message.channel.send(embed);
