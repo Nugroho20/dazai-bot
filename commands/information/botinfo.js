@@ -22,7 +22,7 @@ exports.run = (client, message, args) => { // eslint-disable-line no-unused-vars
   .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
   .addField("Bot Info:", `\`\`\`YAML\n
 ❯ Name: ${client.user.username}
-❯ Developer: ShiroLine#0001
+❯ Owmer: @Za Sung-ho#0017 
 ❯ Ping: ${Math.round(client.ws.ping)}ms\`\`\``)
   .addField("Presence:", `\`\`\`YAML\n
 ❯ Users    : ${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0).toLocaleString()}
