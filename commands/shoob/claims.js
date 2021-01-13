@@ -35,7 +35,7 @@ exports.run = async (client, message, args) => {
     }
     else {
       message.channel.send({ embed: {
-        "description": `<:Mayuri_Failed:772486728300101632> | **${user.username}** haven\'t claimed any cards yet`,
+        "description": `:red_circle: | **${user.username}** haven\'t claimed any cards yet`,
         "color": "RED"
       }});
     }
