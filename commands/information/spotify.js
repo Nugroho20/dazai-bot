@@ -68,7 +68,7 @@ exports.help = {
     name: "spotify",
     name2: "Spotify",
     description: "Showing track info spotify",
-    usage: "Nez!spotify / Nez!spotify @mention"
+    usage: "spotify / spotify @mention"
 };
 
 exports.conf = {
