@@ -61,7 +61,8 @@ const convert = require("parse-ms");
           false
         );
       return message.channel.send(embed);
-    };
+    }
+ }
     
 exports.help = {
     name: "spotify",
