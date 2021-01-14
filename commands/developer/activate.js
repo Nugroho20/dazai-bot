@@ -36,13 +36,13 @@ exports.run = async (client, message, args) => {
 
 exports.help = {
     name: "activate",
-    name2: "Activate",
+    name2: "Shoob activate",
     description: "Activate shoob category on the server",
     usage: "activate",
     example: "activate"
   }
   
   exports.conf = {
-    aliases: [],
+    aliases: ["shoob active],
     cooldown: 10
   }
