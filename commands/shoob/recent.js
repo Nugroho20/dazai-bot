@@ -14,7 +14,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt1_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T1:757355565981761669> __Tier 1__ | __Recent Cards__")
+            .setTitle("<:atr_t1:798846436593631252> __Tier 1__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#95A5A6")
@@ -23,7 +23,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T1:757355565981761669> __Tier 1__ | __Recent Cards__")
+            .setTitle("<:atr_t1:798846436593631252> __Tier 1__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#95A5A6")
@@ -52,7 +52,7 @@ exports.run = async (client, message, args) => {
         const claimer5 = Claimer.split("\n")[batas+1] ? Claimer.split("\n")[batas+1] : ""
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T1:757355565981761669> __Tier 1__ | __Recent Cards__")
+        .setTitle("<:atr_t1:798846436593631252> __Tier 1__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#95A5A6")
@@ -66,7 +66,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt1_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T1:757355565981761669> __Tier 1__ | __Recent Cards__")
+            .setTitle("<:atr_t1:798846436593631252> __Tier 1__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#95A5A6")
@@ -75,7 +75,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T1:757355565981761669> __Tier 1__ | __Recent Cards__")
+            .setTitle("<:atr_t1:798846436593631252> __Tier 1__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#95A5A6")
@@ -105,7 +105,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T1:757355565981761669> __Tier 1__ | __Recent Cards__")
+        .setTitle("<:atr_t1:798846436593631252> __Tier 1__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#95A5A6")
@@ -119,7 +119,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt2_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T2:757355535828779069> __Tier 2__ | __Recent Cards__")
+            .setTitle("<:atr_t2:798846602101391380> __Tier 2__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#2ECC71")
@@ -128,7 +128,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T2:757355535828779069> __Tier 2__ | __Recent Cards__")
+            .setTitle("<:atr_t2:798846602101391380> __Tier 2__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#2ECC71")
@@ -158,7 +158,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T2:757355535828779069> __Tier 2__ | __Recent Cards__")
+        .setTitle("<:atr_t2:798846602101391380> __Tier 2__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#2ECC71")
@@ -172,7 +172,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt2_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T2:757355535828779069> __Tier 2__ | __Recent Cards__")
+            .setTitle("<:atr_t2:798846602101391380> __Tier 2__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#2ECC71")
@@ -181,7 +181,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T2:757355535828779069> __Tier 2__ | __Recent Cards__")
+            .setTitle("<:atr_t2:798846602101391380> __Tier 2__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#2ECC71")
@@ -211,7 +211,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T2:757355535828779069> __Tier 2__ | __Recent Cards__")
+        .setTitle("<:atr_t2:798846602101391380> __Tier 2__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#2ECC71")
@@ -225,7 +225,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt3_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T3:757355503939616850> __Tier 3__ | __Recent Cards__")
+            .setTitle("<:atr_t3:798846665414017075> __Tier 3__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#3498DB")
@@ -234,7 +234,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T3:757355503939616850> __Tier 3__ | __Recent Cards__")
+            .setTitle("<:atr_t3:798846665414017075> __Tier 3__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#3498DB")
@@ -264,7 +264,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T3:757355503939616850> __Tier 3__ | __Recent Cards__")
+        .setTitle("<:atr_t3:798846665414017075> __Tier 3__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#3498DB")
@@ -278,7 +278,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt3_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T3:757355503939616850> __Tier 3__ | __Recent Cards__")
+            .setTitle("<:atr_t3:798846665414017075> __Tier 3__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#3498DB")
@@ -287,7 +287,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T3:757355503939616850> __Tier 3__ | __Recent Cards__")
+            .setTitle("<:atr_t3:798846665414017075> __Tier 3__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#3498DB")
@@ -317,7 +317,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T3:757355503939616850> __Tier 3__ | __Recent Cards__")
+        .setTitle("<:atr_t3:798846665414017075> __Tier 3__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#3498DB")
@@ -331,7 +331,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt4_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T4:757355465373122661> __Tier 4__ | __Recent Cards__")
+            .setTitle("<:atr_t4:798846783119818753> __Tier 4__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#AE04D3")
@@ -340,7 +340,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T4:757355465373122661> __Tier 4__ | __Recent Cards__")
+            .setTitle("<:atr_t4:798846783119818753> __Tier 4__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#AE04D3")
@@ -370,7 +370,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T4:757355465373122661> __Tier 4__ | __Recent Cards__")
+        .setTitle("<:atr_t4:798846783119818753> __Tier 4__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#AE04D3")
@@ -384,7 +384,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt4_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T4:757355465373122661> __Tier 4__ | __Recent Cards__")
+            .setTitle("<:atr_t4:798846783119818753> __Tier 4__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#AE04D3")
@@ -393,7 +393,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T4:757355465373122661> __Tier 4__ | __Recent Cards__")
+            .setTitle("<:atr_t4:798846783119818753> __Tier 4__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#AE04D3")
@@ -423,7 +423,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T4:757355465373122661> __Tier 4__ | __Recent Cards__")
+        .setTitle("<:atr_t4:798846783119818753> __Tier 4__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#AE04D3")
@@ -437,7 +437,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt5_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T5:757355431613169874> __Tier 5__ | __Recent Cards__")
+            .setTitle("<:atr_t5:798846842334478336> __Tier 5__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#FADB03")
@@ -446,7 +446,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T5:757355431613169874> __Tier 5__ | __Recent Cards__")
+            .setTitle("<:atr_t5:798846842334478336> __Tier 5__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#FADB03")
@@ -476,7 +476,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T5:757355431613169874> __Tier 5__ | __Recent Cards__")
+        .setTitle("<:atr_t5:798846842334478336> __Tier 5__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#FADB03")
@@ -490,7 +490,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt5_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T5:757355431613169874> __Tier 5__ | __Recent Cards__")
+            .setTitle("<:atr_t5:798846842334478336> __Tier 5__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#FADB03")
@@ -499,7 +499,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T5:757355431613169874> __Tier 5__ | __Recent Cards__")
+            .setTitle("<:atr_t5:798846842334478336> __Tier 5__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#FADB03")
@@ -529,7 +529,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T5:757355431613169874> __Tier 5__ | __Recent Cards__")
+        .setTitle("<:atr_t5:798846842334478336> __Tier 5__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#FADB03")
@@ -543,7 +543,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt6_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T6:757354520530386944> __Tier 6__ | __Recent Cards__")
+            .setTitle("<:atr_t6:798846909006741545> __Tier 6__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#E74C3C")
@@ -552,7 +552,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T6:757354520530386944> __Tier 6__ | __Recent Cards__")
+            .setTitle("<:atr_t6:798846909006741545> __Tier 6__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#E74C3C")
@@ -582,7 +582,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T6:757354520530386944> __Tier 6__ | __Recent Cards__")
+        .setTitle("<:atr_t6:798846909006741545> __Tier 6__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#E74C3C")
@@ -596,7 +596,7 @@ exports.run = async (client, message, args) => {
         const recentspawn = await client.db.get(`recentcardt6_${message.guild.id}`);
         if (!claimer) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T6:757354520530386944> __Tier 6__ | __Recent Cards__")
+            .setTitle("<:atr_t6:798846909006741545> __Tier 6__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#E74C3C")
@@ -605,7 +605,7 @@ exports.run = async (client, message, args) => {
         }
         if (!recentspawn) {
             const embed = new Discord.MessageEmbed()
-            .setTitle("<:IP_T6:757354520530386944> __Tier 6__ | __Recent Cards__")
+            .setTitle("<:atr_t6:798846909006741545> __Tier 6__ | __Recent Cards__")
             .addField(`• __Card__`, `\`  -  \``, true)
             .addField(`• __Claimed by__`, `\`  -  \``, true)
             .setColor("#E74C3C")
@@ -635,7 +635,7 @@ exports.run = async (client, message, args) => {
         const claimer6 = Claimer.split("\n")[batas] ? Claimer.split("\n")[batas] : ""
         
         const embed = new Discord.MessageEmbed()
-        .setTitle("<:IP_T6:757354520530386944> __Tier 6__ | __Recent Cards__")
+        .setTitle("<:atr_t6:798846909006741545> __Tier 6__ | __Recent Cards__")
         .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
         .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
         .setColor("#E74C3C")
