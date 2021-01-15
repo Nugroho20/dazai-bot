@@ -22,7 +22,7 @@ exports.run = (client, message, args) => { // eslint-disable-line no-unused-vars
   .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
   .addField("Bot Info:", `\`\`\`YAML\n
 ❯ Name: ${client.user.username}
-❯ Owmer: @Sung-woo#0017
+❯ Owmer: @Jin-dae#0017
 ❯ Ping: ${Math.round(client.ws.ping)}ms\`\`\``)
   .addField("Presence:", `\`\`\`YAML\n
 ❯ Users    : ${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0).toLocaleString()}
@@ -37,7 +37,7 @@ exports.run = (client, message, args) => { // eslint-disable-line no-unused-vars
   .setColor(client.colors.theme)
   .setFooter(`Replying to ${user.tag}`, user.displayAvatarURL())
   message.channel.send(embed).then(i => {
-    i.delete({timeout: 15000})
+    i.delete({timeout: 20000})
 })
 
 }; 
