@@ -20,7 +20,7 @@ exports.run = async (client, message, args) => {
       const embed = new MessageEmbed()
     .setTitle(':pencil: | ' + user.username + '`s Card Stats')
     .setURL('https://animesoul.com/user/' + user.id + '')
-    .setColor("#FFFF33")
+    .setColor("WHITE")
     .setDescription(`\n
 <a:IP_TS:788097179301576734> | Total Cards Claimed: \`${totalclaims}\`
 <a:bongo_1:757451530948575232> | Cards Claimed This Season: \`${seasonclaims}\`
