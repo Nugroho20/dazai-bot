@@ -31,7 +31,7 @@ exports.run = async (client, message, args) => {
     const embed = new Discord.MessageEmbed()
     .setAuthor(`Leaderboard | ${message.guild.name}`, message.guild.iconURL({dynamic: true}))
     .setTitle(`Top Claimer on ${message.guild.name}`)
-    .setColor('RED')
+    .setColor('BLACK')
     .setDescription(`\`\`\`css
 ${arr.join("\n")}\`\`\``)
   .setFooter(`Page: ${page} / ${lastpage} | d!lb [page]`);
