@@ -2,9 +2,9 @@
   "//1": "©2021 ShiroLine",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-  "name": "Dazai Osamu",
-  "version": "1.0.0",
-  "description": "Bot me",
+  "name": "MayuriBot",
+  "version": "1.0.2",
+  "description": "Mayuri Discord Bot",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
