@@ -34,7 +34,7 @@ exports.run = async (client, message, args) => {
     .setColor('RED')
     .setDescription(`\`\`\`css
 ${arr.join("\n")}\`\`\``)
-  .setFooter(`Page: ${page} / ${lastpage} | Nez!lb [page]`);
+  .setFooter(`Page: ${page} / ${lastpage} | d!lb [page]`);
     message.channel.send(embed).then(i => {
       i.delete({timeout: 15000})
   })
