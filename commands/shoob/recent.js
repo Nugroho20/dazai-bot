@@ -681,7 +681,7 @@ exports.run = async (client, message, args) => {
     .setTitle("__Recent Cards__")
     .addField(`• __Card__`, `${number1}\n${number2}\n${number3}\n${number4}\n${number5}\n${number6}`, true)
     .addField(`• __Claimed by__`, `${claimer1}\n${claimer2}\n${claimer3}\n${claimer4}\n${claimer5}\n${claimer6}`, true)
-    .setColor("RANDOM")
+    .setColor("BLACK")
     .setFooter(`Last spawn: ${LastSpawn} ago`)
      return message.channel.send({ embed }).catch(err => {
     return message.channel.send("Error : " + err)
