@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
 exports.run = async (client, message, args) => {
+  message.delete({timeout: 15000});
+  
   const active = await client.db.get(`activated.${message.guild.id}`);
   if(!active) return message.channel.send('Please activate first to use Shoob Category Commands');
     if(!message.guild.id.includes(active)) {
@@ -36,7 +38,7 @@ exports.run = async (client, message, args) => {
 ${arr.join("\n")}\`\`\``)
   .setFooter(`Page: ${page} / ${lastpage} | d!lb [page]`);
     message.channel.send(embed).then(i => {
-      i.delete({timeout: 15000})
+      i.delete({timeout: 20000})
   })
 }
 exports.help = {
