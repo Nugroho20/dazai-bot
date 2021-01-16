@@ -43,6 +43,6 @@ exports.help = {
   }
   
   exports.conf = {
-    aliases: ["shoobactive],
+    aliases: ["shoobactive"],
     cooldown: 10
   }
