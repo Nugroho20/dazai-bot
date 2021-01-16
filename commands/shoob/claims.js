@@ -44,7 +44,7 @@ exports.help = {
     name: "claims",
     name2: "Claims",
     description: "Showing user claims stats",
-    usage: "Nez!claims <@user>",
+    usage: "claims <@user>",
     example: "claims"
   }
   
