@@ -22,7 +22,7 @@ exports.run = async (client, message, args) => {
     .setColor(client.colors.theme)
     .setDescription(`Use \`${prefix}help [command]\` to get more information\nExample: \`${prefix}help timer\``)
     .setAuthor("Help commands | " + message.guild.name, message.guild.iconURL())
-    .setFooter('Owner xd ' + av.tag, av.displayAvatarURL())
+    .setFooter('Owner :D ' + av.tag, av.displayAvatarURL())
     .setTimestamp();
     
     for (const mod of module) {
@@ -69,5 +69,5 @@ exports.help = {
 
 exports.conf = {
   aliases: ["?"],
-  cooldown: 10
+  cooldown: 5
 }
