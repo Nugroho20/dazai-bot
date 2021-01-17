@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const convert = require("parse-ms");
 
   exports.run = async (client, message, args) => {
+    message.delete({timeout: 30000});
     let user;
     if (message.mentions.users.first()) {
       user = message.mentions.users.first();
@@ -60,7 +61,8 @@ const convert = require("parse-ms");
           `[\`${artist} - ${name}\`](${url})`,
           false
         );
-      return message.channel.send(embed);
+      return message.channel.send(embed).then(i => {i.delete({timeout: 30000})
+  })
     }
  }
     
