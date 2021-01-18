@@ -1,6 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 
 exports.run = async (client, message, args) => {
+  message.delete({timeout: 15000});
   
   const msg = await message.channel.send('Ping...')
     .then(i => i.delete({timeout: 1500}))
@@ -11,7 +12,7 @@ exports.run = async (client, message, args) => {
 • Latency  :: ${msg.createdTimestamp - message.createdTimestamp}ms\`\`\``)
     .setColor(client.colors.theme)
     .setFooter("🏓")
-    message.channel.send({ embed });
+    message.channel.send({ embed }).then(i => {i.delete({timeout: 15000})
   
 };
 exports.help = {
