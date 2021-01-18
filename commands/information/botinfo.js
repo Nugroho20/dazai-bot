@@ -5,7 +5,7 @@ const os = require('os');
 const ms = require("ms");
 
 exports.run = (client, message, args) => { // eslint-disable-line no-unused-vars
-  message.delete({timeout: 15000});
+  message.delete({timeout: 20000});
 
   // function data size
   function formatBytes(bytes) {
@@ -22,7 +22,7 @@ exports.run = (client, message, args) => { // eslint-disable-line no-unused-vars
   .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
   .addField("Bot Info:", `\`\`\`YAML\n
 ❯ Name: ${client.user.username}
-❯ Owmer: @Jin-dae#0017
+❯ Owmer: @｀Nugroho#0020
 ❯ Ping: ${Math.round(client.ws.ping)}ms\`\`\``)
   .addField("Presence:", `\`\`\`YAML\n
 ❯ Users    : ${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0).toLocaleString()}
