@@ -42,8 +42,8 @@ exports.run = async (client, message, args) => {
 }
 
 exports.help = {
-    name: "spawntimer",
-    name2: "SpawnTimer",
+    name: "shoobtimer",
+    name2: "ShoobTimer",
     description: "Set timer when shoob spawn a card",
     usage: "spawntimer <true/false>",
     example: "spawntimer false"
