@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 exports.run = async (client, message, args) => {
-  message.delete({timeout: 15000});
+  message.delete({timeout: 20000});
   
   const active = await client.db.get(`activated.${message.guild.id}`);
   if(!active) return message.channel.send('Please activate first to use Shoob Category Commands');
