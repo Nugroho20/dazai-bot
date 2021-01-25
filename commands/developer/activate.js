@@ -1,6 +1,6 @@
 exports.run = async (client, message, args) => {
   const active = client.db.get(`activated.${message.guild.id}`);
-  if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send('<:Mayuri_Failed:772486728300101632>| You need ADMIN permission to perform this command!')
+  if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send(':red_circle: | You need ADMIN permission to perform this command!')
 
   let msg = await message.channel.send({ embed: {
     description: "Are you sure want to activate Shoob Commands",
