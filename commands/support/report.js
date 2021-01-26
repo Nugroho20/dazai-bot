@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js")
 
 exports.run = async (client, message, args) => {
     if(!args.length) {
-        return message.channel.send("<:Mayuri_Failed:772486728300101632>| Please Give the Report details, e.g: `m!report Bug on command anime (it doesn't appear/showing anime details)`").then(m => {
+        return message.channel.send(":red_circle:| Please Give the Report details, e.g: `m!report Bug on command anime (it doesn't appear/showing anime details)`").then(m => {
         m.react("❌")
         })
       }
@@ -18,7 +18,7 @@ exports.run = async (client, message, args) => {
       .setTimestamp()
       
       
-      client.channels.cache.get('785013664658489416').send(embed).then(m => {
+      client.channels.cache.get('803441590545678380').send(embed).then(m => {
         m.react("✅")
         m.react("❌")
       }).catch(err => {})
@@ -26,7 +26,7 @@ exports.run = async (client, message, args) => {
   
       
       message.channel.send({ embed: {
-          "description": "Thanks for Reporting. Your report will be responded soon. <:Woah:769139813226905611>",
+          "description": "Thanks for Reporting. Your report will be responded soon.",
           "color": client.colors.theme
       }}).then(m => {
         m.react("✅")
