@@ -5,7 +5,6 @@ const client = new MayuriClient({
   fetchAllMembers: true
 });
 const { token } = require('./config.json')
-
 //READ DB
 client.on('message', async message => {
   const activated = await client.db.get(`activated.${message.guild.id}`);
